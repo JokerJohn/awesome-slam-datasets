@@ -12,12 +12,18 @@ We provide several category for each access of the data.
 
 ## News !!
 
+## Update: 2025-01-14
+
+- Add [MapEval](https://github.com/JokerJohn/Cloud_Map_Evaluation) library for point cloud map evaluation.
+- Add [PALoc](https://github.com/JokerJohn/PALoc) library, which can be used to assist in generating a 6-DOF dense ground truth trajectory with a prior map for SLAM datasets.
+
 ## Update: 2024-07-31
+
 - Add FusionPortable Series (V1: Campus-scene with diverse platforms, V2: From Campus to Highway, scalable environments.)
 
 ## Update: 2024-4-18
 - Add VBR SLAM Dataset
- 
+
 ## Update: 2023-06-20
 - Add 4Seasons
 - Add M2DGR
@@ -57,8 +63,10 @@ We provide several category for each access of the data.
   - Syncity
 
 ## Category
+
 - [Awesome SLAM Datasets ](#awesome-slam-datasets-)
   - [News !!](#news-)
+  - [Update: 2025-01-14](#update-2025-01-1)
   - [Update: 2024-07-31](#update-2024-07-31)
   - [Update: 2023-06-20](#update-2023-06-20)
   - [Update: 2022-8-15](#update-2022-8-15)
@@ -177,6 +185,8 @@ We provide several category for each access of the data.
 
 ## Evaluation
 _Evaluation methods for SLAM benchmarks_
+- 6-DoF dense Trajectory Generation WIth a Prior Map for SLAM benchmark [[Paper](https://ieeexplore.ieee.org/document/10480308)], [[Code](https://github.com/JokerJohn/PALoc)]
+- MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework [[Paper](https://arxiv.org/abs/2411.17928)], [[Code](https://github.com/JokerJohn/Cloud_Map_Evaluation)]
 - Trajectory Evaluation with Alignment [[Paper](http://rpg.ifi.uzh.ch/docs/IROS18_Zhang.pdf)], [[Code](https://github.com/uzh-rpg/rpg_trajectory_evaluation)]
 - Python package for the evaluation of odometry and SLAM [[Code](https://michaelgrupp.github.io/evo/)]
 - SLAMBench 3.0: Systematic Automated Reproducible Evaluation of SLAM Systems for Robot Vision Challenges and Scene Understanding [[Paper](https://www.sajad-saeedi.ca/uploads/3/8/5/9/38597021/sb3.pdf)], [[Code](https://github.com/mihaibujanca/slambench3)]
